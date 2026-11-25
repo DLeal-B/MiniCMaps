@@ -1,21 +1,23 @@
-﻿public enum TipusZona {
-    PAIS,
-    COMARCA,
-    MUNICIPI,
-    BARRI
+﻿namespace MiniPractica.Entitats;
+
+public enum TipusZona {
+    Pais,
+    Comarca,
+    Municipi,
+    Barri
 }
 public enum TipusLloc {
-    PUBLIC,
-    BOSC,
-    LAVABO,
-    ESTACIO,
-    GASOLINERA,
-    PRAT,
-    VESTIDOR
+    Public,
+    Bosc,
+    Lavabo,
+    Estacio,
+    Gasolinera,
+    Prat,
+    Vestidor
 }
 
 public enum Estat {
-    ACTIU, 
-    PENDENT_REVISIO, 
-    TANCAT
+    Actiu, 
+    PendentRevisio, 
+    Tancat
 }
